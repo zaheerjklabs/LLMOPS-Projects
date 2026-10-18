@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Packaging and Builds
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables and Secrets (preserve template files)
+.env
+.env.*
+!.env.copy
+!.env.example
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs and transient runtime data
+logs/
+*.log
+
+# Generated transient outputs & archives
+automated-research-report-generation/generated_report/
+automated-research-report-generation/archive/
+document_portal/faiss_index/
+document_portal/archive/
+document_portal/main_archive/
+ecomm-prod-assistant/archive/
+sementic-image-search/data/retrieved/
